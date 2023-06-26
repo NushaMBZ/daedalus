@@ -2,7 +2,12 @@
 
 i know he looks awfull for now, but he'll go through one hell of a changes over time.
 
-<img src="assets/demo-01.png" align="center">
+<br>
+
+<img src="assets/demo-02.jpg" align="center" style="border-radius: 15px 50px 30px;">
+
+<br>
+<br>
 
 ### Settings
 This is the pelicanconf.py settings file for the demo site, please change values to meet your needs.
@@ -129,4 +134,26 @@ In order to have a responsiveness video tumbnail, the `<iframe>` tags must be wr
     </iframe>
 </div>
 ```
+
+### Preview
+<br>
+
+<img src="assets/demo-03.jpg" align="center" style="border-radius: 15px 50px 30px;">
+
+<br>
+<br>
+
+<img src="assets/demo-04.jpg" align="center" style="border-radius: 15px 50px 30px;">
+
+<br>
+<br>
+
+<img src="assets/demo-05.jpg" align="center" style="border-radius: 15px 50px 30px;">
+
+<br>
+<br>
+
+<img src="assets/demo-06.jpg" align="center" style="border-radius: 15px 50px 30px;">
+
+<br>
 

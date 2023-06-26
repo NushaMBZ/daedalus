@@ -1,5 +1,5 @@
 AUTHOR = 'thlurte'
-SITENAME = 'thlurte'
+SITENAME = 'Daedalus'
 SITEURL = ''
 
 PATH = 'content'
@@ -25,11 +25,11 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 8
 
 MENUITEMS = [
-             ("about","about.html"),
-             ("archive","archive.html"),
+             ("about","authors.html"),
+             ("archive","archives.html"),
              ("tags","tags.html")]
 
 DISPLAY_CATEGORIES_ON_MENU = False

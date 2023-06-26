@@ -4,14 +4,18 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
-        <title>thlurte - News category</title>
+        <title>Daedalus - News category</title>
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
         <style>
                 body {
-                        font-family: 'Fira Code', monospace;
-                        background-color: #f8f9fa;
+                        font-family: 'Nunito', monospace;
+                        background-color: rgb(245 245 245);
+                        
                 }
                 a {
                         text-decoration: none;
@@ -20,14 +24,23 @@
 
                 p {
                         font-size: medium;
+                        text-align: justify;
+                        text-justify: inter-word;
                 }
 
                 h5 {
-                        font-weight: bold;
+                        font-weight:600;
                 }
 
                 #limit {
                         width: 750px;  margin-left: auto;  margin-right: auto
+                }
+
+                #anon {
+                        font-weight: bolder;
+                }
+                #content-warp {
+                        min-height: calc(100vh - 95px); 
                 }
 
         </style>
@@ -35,27 +48,29 @@
 </head>
 
 <body id="index" class="home">
+        <div id="page-container">
+                <div id="content-wrap">
 	<nav id="menu" class="navbar navbar-expand-lg container">
 			<div class="container-fluid">
 			<ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">daedalus</a>		
+                                        <a class="nav-link font-weight-bold" aria-current="page" href="/"><b>daedalus</b></a>		
                                         </li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
-
+        
         <div class="text-end">
 	<li class="nav-item">
-            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="about.html">about</a>		
+            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="authors.html">about</a>		
 	    </li>
         </div>
-
+        
         <div class="text-end">
 	<li class="nav-item">
-            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="archive.html">archive</a>		
+            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="archives.html">archive</a>		
 	    </li>
         </div>
-
+        
         <div class="text-end">
 	<li class="nav-item">
             <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="tags.html">tags</a>		
@@ -69,69 +84,6 @@
 	<!-- /#menu -->
 <section id="content">
 <h2>Articles in the News category</h2>
-<div class="card container-sm">
-<div class="card-body">
-        <article class="hentry">
-                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-15.html" rel="bookmark" title="Permalink to A sample article 15">A sample article 15</a></h5> </header>
-
-                <div class="entry-content"> <p>Summary of post 15</p> </div><!-- /.entry-content -->
-                <footer class="post-info">
-                    <span>
-                    <time class="published" datetime="2021-03-15T00:00:00+05:30"> Mon 15 March 2021 </time>
-                    </span>
-                    <span>
-                    <span class="vcard author ">. 
-                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
-                    </span>
-                </span>
-                </footer><!-- /.post-info -->
-        </article>
-
-</div>
-</div>
-<br>
-<div class="card container-sm">
-<div class="card-body">
-        <article class="hentry">
-                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-14.html" rel="bookmark" title="Permalink to A sample article 14">A sample article 14</a></h5> </header>
-
-                <div class="entry-content"> <p>Summary of post 14</p> </div><!-- /.entry-content -->
-                <footer class="post-info">
-                    <span>
-                    <time class="published" datetime="2021-03-14T00:00:00+05:30"> Sun 14 March 2021 </time>
-                    </span>
-                    <span>
-                    <span class="vcard author ">. 
-                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
-                    </span>
-                </span>
-                </footer><!-- /.post-info -->
-        </article>
-
-</div>
-</div>
-<br>
-<div class="card container-sm">
-<div class="card-body">
-        <article class="hentry">
-                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-13.html" rel="bookmark" title="Permalink to A sample article 13">A sample article 13</a></h5> </header>
-
-                <div class="entry-content"> <p>Summary of post 13</p> </div><!-- /.entry-content -->
-                <footer class="post-info">
-                    <span>
-                    <time class="published" datetime="2021-03-13T00:00:00+05:30"> Sat 13 March 2021 </time>
-                    </span>
-                    <span>
-                    <span class="vcard author ">. 
-                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
-                    </span>
-                </span>
-                </footer><!-- /.post-info -->
-        </article>
-
-</div>
-</div>
-<br>
 <div class="card container-sm">
 <div class="card-body">
         <article class="hentry">
@@ -174,20 +126,145 @@
 </div>
 </div>
 <br>
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-10.html" rel="bookmark" title="Permalink to A sample article 10">A sample article 10</a></h5> </header>
+
+                <div class="entry-content"> <p>Summary of post 10</p> </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="2021-03-10T00:00:00+05:30"> Wed 10 March 2021 </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-09.html" rel="bookmark" title="Permalink to A sample article 09">A sample article 09</a></h5> </header>
+
+                <div class="entry-content"> <p>Summary of post 09</p> </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="2021-03-09T00:00:00+05:30"> Tue 09 March 2021 </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-08.html" rel="bookmark" title="Permalink to A sample article 08">A sample article 08</a></h5> </header>
+
+                <div class="entry-content"> <p>Summary of post 08</p> </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="2021-03-08T00:00:00+05:30"> Mon 08 March 2021 </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-07.html" rel="bookmark" title="Permalink to A sample article 07">A sample article 07</a></h5> </header>
+
+                <div class="entry-content"> <p>Summary of post 07</p> </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="2021-03-07T00:00:00+05:30"> Sun 07 March 2021 </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-06.html" rel="bookmark" title="Permalink to A sample article 06">A sample article 06</a></h5> </header>
+
+                <div class="entry-content"> <p>Summary of post 06</p> </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="2021-03-06T00:00:00+05:30"> Sat 06 March 2021 </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="/a-sample-article-05.html" rel="bookmark" title="Permalink to A sample article 05">A sample article 05</a></h5> </header>
+
+                <div class="entry-content"> <p>Summary of post 05</p> </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="2021-03-05T00:00:00+05:30"> Fri 05 March 2021 </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                        <a class="url fn text-end" href="/author/thlurte.html">thlurte</a>
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
 
 <p class="paginator">
         <a href="/category/news.html">&#8647;</a>
         <a href="/category/news.html">&laquo;</a>
-    Page 2 / 4
-        <a href="/category/news3.html">&raquo;</a>
-        <a href="/category/news4.html">&#8649;</a>
+    Page 2 / 2
 </p>
 </section><!-- /#content -->
 
 
         </div>
-        <footer id="contentinfo" class="footer navbar fixed-bottom">
-                <address id="about" class="vcard body text-center">
+        </div>
+        <footer id="contentinfo footer" class="text-center">
+                <address id="about" class="vcard body">
 
                         ©2023 • Powered by Pelican & Daedalus        
 

@@ -3,6 +3,7 @@
 
 {% block title %}{{ SITENAME }} - {{ article.title|striptags  }}{% endblock %}
 
+
 {% block head %}
   {{ super() }}
 
@@ -23,6 +24,18 @@
 
 {% block content %}
 <section id="content" class="body">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<br>
+<br>
   <header>
     <h2 class="entry-title">
       <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
@@ -46,22 +59,30 @@
         {% endfor %}
     </address>
     {% endif %}
-    {% if article.category %}
-    <div class="category">
-        Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-    </div>
-    {% endif %}
-    {% if article.tags %}
-    <div class="tags">
-        Tags:
-        {% for tag in article.tags %}
-            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
-        {% endfor %}
-    </div>
-    {% endif %}
+
+   
+    <br>
+    <br>
+    <br>
+    <br>
   </footer><!-- /.post-info -->
   <div class="entry-content">
     {{ article.content }}
   </div><!-- /.entry-content -->
 </section>
+<br>
+<br>
+{% if article.category %}
+<div class="category">
+    Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+</div>
+{% endif %}
+{% if article.tags %}
+<div class="tags">
+    Tags:
+    {% for tag in article.tags %}
+        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+    {% endfor %}
+</div>
+{% endif %}
 {% endblock %}

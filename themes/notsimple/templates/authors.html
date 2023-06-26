@@ -3,10 +3,28 @@
 {% block title %}{{ SITENAME }} - Authors{% endblock %}
 
 {% block content %}
-    <h1>Authors on {{ SITENAME }}</h1>
-    <ul>
-    {% for author, articles in authors|sort %}
-        <li><a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> ({{ articles|count }})</li>
-    {% endfor %}
-    </ul>
+<div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="text-center">
+        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/one.jpg" alt="DP" width="35%" style="border-radius: 50%">
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <p>Hi, I am a student exploring the symbiotic relationship between biological and synthetic entities. My preference lies in spending time on building tools that offer humans an additional perspective on the complexity of the natural world.</p>
+
+<p>At times i also make feeble attempts to delve deeper into the realm of science fiction and philosophical litreatures to gain alternate perspective on the human condition and explore the possiblities of the fucture.</p>
+
+
+</div>
 {% endblock %}

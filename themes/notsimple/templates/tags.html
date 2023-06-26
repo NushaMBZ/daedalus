@@ -3,10 +3,15 @@
 {% block title %}{{ SITENAME }} - Tags{% endblock %}
 
 {% block content %}
-    <h1>Tags for {{ SITENAME }}</h1>
-    <ul>
+    <h1>Tags</h1>
+    <br>
+    <br>
+    <br>
     {% for tag, articles in tags|sort %}
-        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+    <button type="button" class="btn btn-outline-secondary p-2 m-2"><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</button>
     {% endfor %}
-    </ul>
+    <br>
+    <br>
+    <br>
+    
 {% endblock %}

@@ -4,8 +4,11 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
-          <title>thlurte - A sample article 19</title>
+          <title>Daedalus - A sample article 19</title>
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
 
@@ -18,8 +21,9 @@
 
         <style>
                 body {
-                        font-family: 'Fira Code', monospace;
-                        background-color: #f8f9fa;
+                        font-family: 'Nunito', monospace;
+                        background-color: rgb(245 245 245);
+                        
                 }
                 a {
                         text-decoration: none;
@@ -28,14 +32,23 @@
 
                 p {
                         font-size: medium;
+                        text-align: justify;
+                        text-justify: inter-word;
                 }
 
                 h5 {
-                        font-weight: bold;
+                        font-weight:600;
                 }
 
                 #limit {
                         width: 750px;  margin-left: auto;  margin-right: auto
+                }
+
+                #anon {
+                        font-weight: bolder;
+                }
+                #content-warp {
+                        min-height: calc(100vh - 95px); 
                 }
 
         </style>
@@ -43,27 +56,29 @@
 </head>
 
 <body id="index" class="home">
+        <div id="page-container">
+                <div id="content-wrap">
 	<nav id="menu" class="navbar navbar-expand-lg container">
 			<div class="container-fluid">
 			<ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">daedalus</a>		
+                                        <a class="nav-link font-weight-bold" aria-current="page" href="/"><b>daedalus</b></a>		
                                         </li>
                         </ul>
                         <ul class="navbar-nav ml-auto">
-
+        
         <div class="text-end">
 	<li class="nav-item">
-            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="about.html">about</a>		
+            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="authors.html">about</a>		
 	    </li>
         </div>
-
+        
         <div class="text-end">
 	<li class="nav-item">
-            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="archive.html">archive</a>		
+            <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="archives.html">archive</a>		
 	    </li>
         </div>
-
+        
         <div class="text-end">
 	<li class="nav-item">
             <a class="nav-link text-end ms-auto me-auto " aria-current="page" href="tags.html">tags</a>		
@@ -76,6 +91,18 @@
        <div id="limit">
 	<!-- /#menu -->
 <section id="content" class="body">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<br>
+<br>
   <header>
     <h2 class="entry-title">
       <a href="/a-sample-article-19.html" rel="bookmark"
@@ -89,15 +116,12 @@
     <address class="vcard author">
       By           <a class="url fn" href="/author/thlurte.html">thlurte</a>
     </address>
-    <div class="category">
-        Category: <a href="/category/news.html">News</a>
-    </div>
-    <div class="tags">
-        Tags:
-            <a href="/tag/tag17.html">tag17</a>
-            <a href="/tag/tag2.html">tag2</a>
-            <a href="/tag/tag18.html">tag18</a>
-    </div>
+
+   
+    <br>
+    <br>
+    <br>
+    <br>
   </footer><!-- /.post-info -->
   <div class="entry-content">
     <h2>Verto irascentemque terra et pennas roganti prohibete</h2>
@@ -145,11 +169,23 @@ vocari cumque stipulae, et freta, horrendis. Florente laetabile poma noviens
 modo.</p>
   </div><!-- /.entry-content -->
 </section>
+<br>
+<br>
+<div class="category">
+    Category: <a href="/category/news.html">News</a>
+</div>
+<div class="tags">
+    Tags:
+        <a href="/tag/tag17.html">tag17</a>
+        <a href="/tag/tag2.html">tag2</a>
+        <a href="/tag/tag18.html">tag18</a>
+</div>
 
 
         </div>
-        <footer id="contentinfo" class="footer navbar fixed-bottom">
-                <address id="about" class="vcard body text-center">
+        </div>
+        <footer id="contentinfo footer" class="text-center">
+                <address id="about" class="vcard body">
 
                         ©2023 • Powered by Pelican & Daedalus        
 

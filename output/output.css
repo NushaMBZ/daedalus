@@ -560,6 +560,10 @@ video {
   position: absolute;
 }
 
+.m-2 {
+  margin: 0.5rem;
+}
+
 .me-auto {
   -webkit-margin-end: auto;
           margin-inline-end: auto;
@@ -590,6 +594,10 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .text-center {
