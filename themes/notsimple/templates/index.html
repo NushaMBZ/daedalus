@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+{% block content_title %}
+<br>
+
+
+	<div class=" container d-flex flex-column ">
+        
+		<h2>daedalus</h2>
+        <br>
+		<p class="text-justify">A fast and responsive theme built for the Pelican site generator.
+The theme is inspired by Hugo-PaperMod. It is styled using Bootstrap v5. 
+	</div>
+	<!-- /#banner -->
+
+	<br>
+<br>
+{% endblock %}
+{% for article in articles_page.object_list %}
+<div class="card container-sm">
+<div class="card-body">
+        <article class="hentry">
+                <header> <h5 class="font-weight-bold entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h5> </header>
+
+                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+                <footer class="post-info">
+                    <span>
+                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                    </span>
+                    <span>
+                    <span class="vcard author ">. 
+                    {% for author in article.authors %}
+                        <a class="url fn text-end" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                    {% endfor %}
+                    </span>
+                </span>
+                </footer><!-- /.post-info -->
+        </article>
+
+</div>
+</div>
+<br>
+{% endfor %}
+
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+</section><!-- /#content -->
+{% endblock content %}
